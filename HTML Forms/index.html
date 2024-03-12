@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+
+<body >
+    <fieldset style="margin:30px 300px;border-color: #b09f66; background: #ddbf79; padding: 20px; border-radius: 30px;">
+    <h3>Enter Your Details</h3>
+    <legend >Fill and Get Hired</legend>
+    <hr>
+    <form>
+        <label for="usrname">Username:</label>
+        <input type="text" name="user_name" id="usrname" placeholder="Enter your Username" required>
+        <br><br>
+        <label for="user_pass">Password:</label>
+        <input type="text" name="usr_pass" id="user_pass" placeholder="Enter Your Password" required>
+        <br><br>
+        <label for="user_email">Email:</label>
+        <input type="text" name="email" id="user_email" placeholder="user123@gmail.com" required>
+        <br><br>
+
+
+        <label for="radio">Gender:</label><br>
+        <input type="radio" name="Gender" id="1">
+        <label for="1">Male</label><br>
+        <input type="radio" name="Gender" id="2">
+        <label for="2">Female</label><br>
+        <input type="radio" name="Gender" id="3">
+        <label for="3">Others</label><br>
+        <br><br>
+        <hr>
+
+
+        <label for="User_file">Upload Your Resume:</label>
+        <input type="file">
+        <br><br>
+        <label for="range">Rate Your Skills</label>
+        <input type="range">
+        <br><br>
+        <label for="sal">Salary Expectations </label>
+        <input type="number" required>
+        <br><br>
+        <hr>
+        
+        <label for="checkbox">Technical Skills:</label><br><br>
+        <input type="checkbox" name="use_check" id="html_checkbox">
+        <label for="html_checkbox">HTML</label>
+        
+        <br>
+        <input type="checkbox" name="user_check" id="css_checkbox">
+        <label for="css_checkbox">CSS</label>
+        
+        <br>
+        <input type="checkbox" name="user_check" id="js_checkbox">
+        <label for="js_checkbox">JS</label>
+       
+        <br>
+
+        <br><br>
+
+        <label for="user_image">Candidate Image:</label>
+        <input type="image" id="user_image">
+        <BR></BR>
+        <hr>
+
+        <label for="dropdown">Designation:</label>
+        <select name="dropdown_Designations" id="1">
+            <option value="">Front End Dev</option>
+            <option value="">Back End Dev</option>
+            <option value="">Automation Tester</option>
+            <option value="">Java Developer</option>
+        </select>
+        <br><br>
+
+        <label for="">Entroduce Yourself in about 50 words:</label><br><br>
+        <textarea name="" id="" cols="10" rows="5" maxlength="100" ></textarea>
+        <br><hr>
+    <!--   <button>Submit Details</button>   -->
+        <input type="submit" style="background-color: green; border-radius: 5px; padding: 5px  10px; border-color: green;">
+        <input type="reset" style="background-color: red; border-radius: 5px; padding: 5px 10px; margin: 5px; border-color: red;">
+
+        <br><br>
+        
+        <a style="text-decoration: none;" href="https://www.arctechs.in/contact.php">Go to Dashboard</a>
+    </form>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Table</title>
+  </head>
+  <body>
+    <table border="2px" cellpadding="5" cellspacing="5" style="background-color: rgb(105, 112, 114);">
+      <thead style="background-color: rgb(83, 79, 75);">
+        <th>StudentId</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1111</td>
+          <td>Ramesh Jagtap</td>
+          <td rowspan="2">Male</td>
+          <td>23</td>
+        </tr>
+
+        <tr>
+          <td>2222</td>
+          <td>Sumedh Gavai</td>
+        
+          <td rowspan="3">34</td>
+        </tr>
+
+        <tr>
+          <td>3333</td>
+          <td>Rahul Misal</td>
+          <td>Male</td>
+          
+        </tr>
+
+        <tr>
+          <td>3333</td>
+          <td>Poonam Pande</td>
+          <td>Female</td>
+         
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Total Students = 4</td>
+          <td colspan="2">Department= Mechanical</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
